@@ -3,3 +3,23 @@
   height: 400px;
   object-fit: cover;
 }
+.card {
+  display: block;
+  padding-left: auto;
+  padding-right: auto;
+  width: 100%;
+}
+
+.card-body {
+  padding-top: 10px;
+  display: block;
+  padding-left: auto;
+  padding-right: auto;
+  background-color: #afcdcd;
+  color: #263547;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
