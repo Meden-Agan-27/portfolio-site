@@ -8,6 +8,9 @@
   padding-left: auto;
   padding-right: auto;
   width: 100%;
+  border-style: none;
+  border-radius: 15px;
+  background-color: #afcdcd;
 }
 
 .card-body {
@@ -15,8 +18,11 @@
   display: block;
   padding-left: auto;
   padding-right: auto;
-  background-color: #afcdcd;
   color: #263547;
+}
+
+.card-body h5 {
+  color: #5a698f;
 }
 
 .img-fluid {
