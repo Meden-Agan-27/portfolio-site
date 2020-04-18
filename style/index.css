@@ -5,11 +5,21 @@
 @import "components/navbar.css";
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
-
+.yellow {
+  color: #f5db4c;
+}
+.blue-flash {
+  color: #774cf5;
+}
+.orange-flash {
+  color: #ff7250;
+}
+.violet {
+  color: #c54cf5;
+}
 .blue {
   color: #5a698f;
 }
-
 .orange {
   background-color: #df7d65;
 }
@@ -34,10 +44,20 @@ body {
   padding: 0 30px;
 }
 #projects {
-  background-color: #df7d65;
+  background-color: #f5db4c;
   color: #263547;
 }
 
-#projects h2 {
-  color: #5a698f;
+#projects h2, p {
+  color: ;
 }
+
+#skills {
+  background-color: #774cf5;
+  color: #263547;
+}
+
+#skills h2 {
+  color: ;
+}
+
