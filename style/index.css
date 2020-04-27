@@ -36,16 +36,24 @@ section {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+.container {
+  background-color: #343a40;
+}
 body {
-  color: #263547;
+  background-color: #343a40;
+  color: #e6dedd;
+}
+
+h2 {
+  font-size: 80px;
 }
 .project-img {
   max-width: 100%;
   padding: 0 30px;
 }
 #projects {
-  background-color: #f5db4c;
-  color: #263547;
+  /*background-color: #f5db4c;*/
+  /*color: #263547;*/
 }
 
 #projects h2, p {
@@ -53,8 +61,8 @@ body {
 }
 
 #skills {
-  background-color: #774cf5;
-  color: #263547;
+  /*background-color: #774cf5;*/
+  /*color: #263547;*/
 }
 
 #skills h2 {
