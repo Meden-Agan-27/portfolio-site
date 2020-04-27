@@ -5,32 +5,15 @@
 @import "components/navbar.css";
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
-.yellow {
-  color: #f5db4c;
-}
-.blue-flash {
-  color: #774cf5;
-}
-.orange-flash {
-  color: #ff7250;
-}
-.violet {
-  color: #c54cf5;
-}
-.blue {
-  color: #5a698f;
-}
+
 .orange {
-  background-color: #df7d65;
+  color: #f89d13;
 }
-.turquoise {
-  color: #afcdcd;
+.grey {
+  color: #343a40
 }
-.light-grey {
-  color: #dfe0e0;
-}
-.dark-blue {
-  color: #263547;
+.whitey {
+  color: #e6dedd;
 }
 section {
   padding-top: 15px;
