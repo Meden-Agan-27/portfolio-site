@@ -1,11 +1,15 @@
 .page-footer {
-  color: #e6dedd;
+  color: #CECECE;
   padding: 0px;
-  background-color: black;
+  background-color: #212121;
 }
 footer h6{
   color: #f89d13;
 }
-.page-footer i{
+
+#email {
+  color: #CECECE;
+}
+#email:hover {
   color: #f89d13;
 }

@@ -3,19 +3,19 @@
   background-position: center;
   padding: 150px 0;
   min-height: 100vh;
+  color: #CECECE;
 }
 
 .banner h1 {
+  padding-top: 80px;
   padding-bottom: 20px;
   color: #f89d13;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 70px;
-
 }
 
-.banner p {
-  font-size: 20px;
-  color: white;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+@media screen and (min-width: 600px) {
+  .banner h1 {
+    padding-top: 200px;
+  }
 }

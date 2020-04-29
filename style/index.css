@@ -5,12 +5,21 @@
 @import "components/navbar.css";
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
-
-.orange {
+h1 {
   color: #f89d13;
 }
+.orange {
+  /*color: #f89d13;*/
+  /*color: #EEDFC5;*/
+  /*color: #DAC294;*/
+  /*color: #D3B7AB;*/
+  /*color: #B5B7BB;*/
+  /*color: #D4D4D4;*/
+  color: #CCB774;
+}
 .grey {
-  color: #343a40
+  /*color: #343a40;*/
+  color: #cfd8dc;
 }
 .whitey {
   color: #e6dedd;
@@ -51,4 +60,6 @@ h2 {
 #skills h2 {
   color: ;
 }
-
+a {
+  text-decoration: none !important;
+}

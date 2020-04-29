@@ -1,6 +1,9 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: black;
+  background: #212121;
+  height: 30vh;
+  padding: 10vh 10px 10vh 10px;
+  font-size: 4vh;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -25,4 +28,10 @@ a.nav-link:hover {
 
 #names-letter:hover {
   color: #f89d13;
+}
+@media only screen and (min-width: 600px) {
+  a#names-letter {
+    width: 80px;
+    height: auto;
+  }
 }
