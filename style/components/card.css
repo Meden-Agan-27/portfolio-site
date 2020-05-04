@@ -1,28 +1,23 @@
-.card img {
-  height: 280px;
-  object-fit: cover;
-  background-color: #afcdcd;
-}
 .card {
-  display: block;
+  display: flex;
   padding-left: auto;
   padding-right: auto;
   width: 100%;
+  height: ;
   border-style: none;
-  border-radius: 15px;
+  border-radius: 2px;
   background-color: #dfe0e0;
 }
 
 .card-body {
-  padding-top: 10px;
-  display: block;
-  padding-left: auto;
-  padding-right: auto;
+  padding: 10px auto;
   color: #263547;
+  height: 65%;
 }
 
 .card-body h5 {
   color: #5a698f;
+  display: block;
 }
 
 .img-fluid {
@@ -31,6 +26,9 @@
 }
 .card a {
   text-decoration: none;
+}
+.card-footer {
+ height: 30%;
 }
 
 

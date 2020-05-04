@@ -13,67 +13,63 @@
 </head>
 
 <body>
-    <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-        <h1>{ Raphaëlle Richard de Latour }</h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <a class="btn btn-ghost" href="file:///Users/raphaellericharddelatour/Desktop/FullStack-DEV_RRDL_CV.pdf" target="_blank"><strong>Resume</strong></a>
-        </div>
+    <div class="navbar navbar-expand-sm navbar-light navbar-lewagon d-flex justify-content-center">
+        <h1 class="">{ Raphaëlle Richard de Latour }</h1>
     </div>
-    <div class="content">
-        <!-- Banner -->
-        <div class="banner">
-            <div class="container">
-                <h2>I am a FullStack Developer Junior. I help entrepreneurs and reseachers with a tech project to build a solution through a Ruby on Rails application.</h2>
-            </div>
-        </div>
+      <!-- Banner -->
+      <div class="banner">
+          <div class="container">
+              <h2>Hello!</h2>
+              <h2>I am a <span class="orange">{ FullStack Developer Junior }</span> I build Ruby on Rails applications for entrepreneurs with tech projects.</h2>
+          </div>
+      </div>
         <!-- Section Projects -->
-        <section id="projects">
-            <div class="container">
-                <div class="project">
-                    <h3>Projects</h3>
-                    <div class="card-collection">
-                        <div class="row">
-                            <div class="col-sm-12 col-md-8 col-lg-6">
-                                <div class="card mb-3">
-                                    <img class="card-img-top" src="file:///Users/raphaellericharddelatour/Desktop/TravelWorms.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <div class="title d-flex">
-                                            <a href="https://www.travelworms.xyz">
-                                                <h5 class="card-title">Travel Worms</h5>
-                                            </a>
-                                        </div>
-                                        <p class="card-text">One week project made in a team of 4 people. Ruby on Rails, HTML, SCSS, JS</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-md-8 col-lg-6">
-                                <div class="card mb-3">
-                                    <img class="card-img-top" src="file:///Users/raphaellericharddelatour/Desktop/rentapet.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Rent a Pet</h5>
-                                        <p class="card-text">One week project made in a team of 4 people. Ruby on Rails, HTML, SCSS, JS</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </section>
-        <!-- Skills -->
-        <section id="skills">
-            <div class="container">
-                <div class="skills">
-                    <h3>Skills</h3>
-                </div>
+
+        <div class="container">
+          <h3>Projects</h3>
+          <div class="card-deck">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">TravelWorms</h5>
+                <p class="card-text">Search books by country of origin in your own language. Organise them by bookshelves, make friends and share good books. <br>Two weeks project made in a team of 4 people.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Ruby on Rails, CSS, HTML, AJAX, scraping, API</small>
+                <a href="https://www.travelworms.xyz" target="_blank"> <small class="text-muted">www.travelworms.xyz</small></a>
+              </div>
             </div>
-        </section>
-        <h3>Teams</h3>
-                    <h4>Member of FAR</h4>
-                    <h5>We help entrepreneurs and small companies who need to establish their online presence by building a modern and personalized website.</h5>
-    </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Rent a pet</h5>
+                <p class="card-text">AirBnB clone: find someone to foster you pet while you are away. <br>One week project, team of 4 people.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Ruby on Rails, CSS, HTML, Cloudinary</small>
+                <a href="https://stockholm376-rent-a-pet.herokuapp.com/" target="_blank"> <small class="text-muted">stockholm376-rent-a-pet.herokuapp.com/</small></a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Primetime</h5>
+                <p class="card-text">Professional website for Primetime company. Admin side made with RoR: CRUD for different kind of events with pictures. <br>Two weeks project with FAR.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Ruby on Rails, CSS, HTML, JavaScript, Cloudinary</small>
+                <a href="https://www.primetimefr.com" target="_blank"> <small class="text-muted">primetimefr.com</small></a>
+              </div>
+            </div>
+          </div>
+      <!-- Skills -->
+        <h3>Skills</h3>
+        <p>Back: Ruby on Rails</p>
+        <p>Front: JavaScript, CSS, AJAX</p>
+        <a class="btn btn-ghost" href="file:///Users/raphaellericharddelatour/Desktop/FullStack-DEV_RRDL_CV.pdf" target="_blank"><strong>Resume</strong></a>
+        <h3>Member of FAR</h3>
+        <p>Three Le Wagon alumni running fullstack projects from afar.</p>
+        <p>We help entrepreneurs and small companies who need to establish their online presence by building a modern and personalized website.</p>
+        <a class="btn btn-ghost" href="https://github.com/FAR-Fullstack" target="_blank"><strong>FAR Github</strong></a>
+      </div>
+
     <!-- Footer -->
     <footer class="page-footer font-small pt-4 text-center text-md-left">
         <!-- Grid column -->
@@ -128,16 +124,8 @@
     </footer>
     <!-- Footer -->
     </div>
-    </div>
-    <script>
-    $(document).ready(function() {
+  </div>
 
-        $('#sidebarCollapse').on('click', function() {
-            $('#sidebar').toggleClass('active');
-        });
-
-    });
-    </script>
 </body>
 
 </html>
