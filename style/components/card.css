@@ -1,5 +1,34 @@
-.main-project  img {
+.card {
+  display: flex;
+  padding-left: auto;
+  padding-right: auto;
   width: 100%;
-  height: 400px;
-  object-fit: cover;
+  height: ;
+  border-style: none;
+  border-radius: 2px;
+  background-color: #dfe0e0;
 }
+
+.card-body {
+  padding: 10px auto;
+  color: #263547;
+  height: 65%;
+}
+
+.card-body h5 {
+  color: #5a698f;
+  display: block;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+.card a {
+  text-decoration: none;
+}
+.card-footer {
+ height: 30%;
+}
+
+
